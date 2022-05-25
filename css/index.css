@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+
+body {
+  font-family: 'Odibee Sans', cursive;
+}
+
+header {
+  background: url("../assets/andre.jpg");
+  height: 400px;
+  text-align: center;
+}
+
+.menu ul {
+  background-color: red;
+  padding: 20px;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.menu a {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+main h1 {
+  text-align: center;
+  font-size: 2.3em;
+  font-weight: 200;
+  text-decoration: underline;
+  margin-top: 20px;
+}
+
+main div.bio {
+  margin: 50px 10px;
+  font-size: 1.3em;
+  font-weight: 300;
+  text-indent: 20px;
+}
+
+main div.bio p {
+  padding: 10px;
+  background-color: antiquewhite;
+}
+
+footer {
+  padding: 20px;
+  background-color: red;
+  color: #FFF;
+  text-align: center;
+}
+
+
+@media (min-width: 500px) {
+
+  header {
+    background: url("../assets/andre.jpg") no-repeat;
+    background-position: 50%;
+  }
+
+  main div.bio {
+    width: 50%;
+    margin: 50px auto;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 97.9%;
+  }
+}
